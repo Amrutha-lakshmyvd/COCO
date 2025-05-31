@@ -3,7 +3,10 @@
     display: flex;
     margin-bottom:50px;
     padding:10px;
+    position:stickey;
+    top:5%;
     animation:color 8s;
+    font-size: 10px;
     
 }
 body{
@@ -17,7 +20,7 @@ body{
     background-color:bisque;
 }
 .navbar ul{
-    font-size: 10px;
+    font-size:20px;
     background-color:darksalmon;
     width:100%;
     display:flex;
@@ -42,7 +45,7 @@ img:hover{
 }
 form{
     background-color:dimgray;
-    border:solid 2px rgb(255, 127, 133)
+    border:solid 2px rgb(255, 127, 133);
     width: 500px;
     padding: 20px;
     display:flex;
@@ -89,6 +92,7 @@ summary{
 
     }
 }
+
 h3{
      animation:color 5s;
 }
@@ -98,4 +102,7 @@ h2{
 h5{
     animation:color 6s;
 }
-@keyframes bgcolor
+.heading
+{
+    text-align: center;
+}
